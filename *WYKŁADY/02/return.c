@@ -21,3 +21,8 @@ int main() {
 
     return 0;
 }
+
+//Wpisz 2 liczby:
+//1
+//5
+//6 
