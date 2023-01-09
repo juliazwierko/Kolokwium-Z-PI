@@ -5,7 +5,6 @@
 
 int main() {
     
-    //tab  jest zawsze stalą!
     //a juz jest wskaznikiem na 0 element tab;
     int a[5] = {1, 2, 3, 4, 5};
     printf("\n");
@@ -16,6 +15,11 @@ int main() {
     int *ptr = b;
     int b2 = *(ptr+2);
     printf("value: %d \n", b2); // 3
+
+    printf("%d\n", 3[b]);       //4
+    printf("%d\n", *(3 + b));   //4
+    printf("%d\n", *(b + 3));   //4
+    printf("%d\n", b[3]);       //4
 
     //На самом деле оператор [ ] является синтаксическим
     //сахаром – он выполняет точно такую же работу.
