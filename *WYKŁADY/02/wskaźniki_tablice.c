@@ -5,6 +5,7 @@
 
 int main() {
     
+    //tab  jest zawsze stalą!
     //a juz jest wskaznikiem na 0 element tab;
     int a[5] = {1, 2, 3, 4, 5};
     printf("\n");
