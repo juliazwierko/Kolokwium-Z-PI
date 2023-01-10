@@ -57,13 +57,15 @@ int main()
 
 
     //strchr(s1, ch) //zwraca wskaźnik do pierwszego wystąpienia ch w s1
-        char ty[] = "kurwa mać";
-        printf("%s\n", strchr(ty,'u'));
+        char ty[] = "kurw kurw mć";
+        printf("%s\n\n", strchr(ty,'a'));
 
 
     
     //strstr(s1, s2) //zwraca wskaźnik do pierwszego wystąpienia s2 w s1
-
+        char ok[] = "hej heja yooo hejaaa";
+        char hej[] = "yooo";
+        printf("%s\n", strstr(ok, hej));
     
     return 0;
 }
