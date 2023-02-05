@@ -20,6 +20,6 @@ int main()
             printf("Some other number");
     }
     
-    printf("\n")
+    printf("\n");
     return 0;
 }
